@@ -1,0 +1,4 @@
+pnpm exec prettier . --write
+pnpm run lint
+npx prettier . --check  
+pnpm exec lint-staged
